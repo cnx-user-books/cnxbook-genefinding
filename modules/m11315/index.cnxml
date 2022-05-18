@@ -1,0 +1,116 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Introduction to Genefinding</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5b506ddb-098e-4a09-aac7-1b5b28b78d5c</md:uuid>
+</metadata>
+
+  <content>
+
+    <para id="para1">
+     Just under fifty years ago two discoveries were made that have changed, or will soon change, the way the human race understands and experiences life.  In 1947 Bardeen, Brittan, and Shockley discovered the transistor effect, an achievement for which, in 1956, they received the Nobel prize.  A few short years later, Jack Kilby at Texas Instruments (1958) and Robert Noyce at Fairchild Camera (1959) made the breakthroughs from which the integrated circuit (multiple transistors on one substrate) was later developed.
+    </para>
+
+<figure id="first_transistor">
+    <title> The first transistor </title>
+    <media id="idm1673104" alt=""><image src="../../media/firsttransistor.gif" mime-type="image/gif"/></media>
+    <caption>
+    This is a picture of the first transistor invented at Bell Labs by Bardeen, Brittan, and Shockley in 1947.
+    </caption> 
+    </figure>
+
+    <para id="para2">
+	In 1953 Watson and Crick unlocked the structure of the DNA molecule and set into motion the modern study of genetics.  This advance allowed our study of life to transcend the wet and dirty realm of proteins, cells, organelles, ions, and lipids, and move up into more abstract methods of analysis.  By discovering the basic structure of DNA we had received our first glance into the information-based realm locked inside the genetic code.
+    </para>
+
+    <figure id="Watson_Crick">
+    <title> The structure of DNA </title>
+    <media id="idm1713632" alt=""><image src="../../media/DH-Nature.gif" mime-type="image/gif"/></media>
+    <caption>
+    This is the original figure depicting the structure of DNA that was published     in Nature in 1953.
+    </caption> 
+    </figure>
+
+    <para id="para3">
+	For almost fifty years genetics and computer science coexisted side-by-side without much interaction.  Computer science is a discipline of abstract data, concerned with its manipulation, management and analysis.  Genetics was empirical in nature and experiment driven; analyzing large amounts of data was simply not a problem geneticists had to contend with.
+    </para>
+
+    <para id="para4">
+	Historically, for geneticists, the amount of time required to generate data has been much greater than the amount of time required to analyze the resultant data.  Genetics experiments that necessitate weeks, months, or even years to bring to successful fruition can generate as little as a few radiographic films in data.  After a successful experiment, a triumphant geneticist would leisurely (between writing grants and teaching classes) scour the data as a hungry dog would attack a leftover steak, analyzing every available nook and cranny, leaving no promising datum untouched.  In the past, generating good experimental data was analogous to searching for gold in that it was scarce and highly-appreciated if it was found.  
+    </para>
+
+
+
+    <para id="para5">
+	One problem geneticists are not accustomed to contending with is an over-abundance of information.  In some ways, the reluctant pace of incoming information has been a good thing for genetics; the interpretation of genetics data can be a challenging endeavor and the relatively slow tempo of its acquisition has allowed ample time for researchers to fully appreciate the implications of each small piece as it arrived.  
+    </para>
+
+    <figure id="rosalind">
+    <title> Rosalind Franklin </title>
+    <media id="idm1667232" alt=""><image src="../../media/rosalind_franklin.gif" mime-type="image/gif"/></media>
+    </figure>
+
+
+    <para id="para6">
+	Human beings and computers have divergent and complimentary abilities.  Computers are intrinsically beasts of information; they deal with pure abstract data, ones and zeros.  Relative to humans, computers excel at manipulating large amounts of data, performing numerous calculations quickly, and analyzing large, multi-dimensional data sets.  Humans, by contrast, are physically rooted in nature and have a proclivity for higher abstract thinking, long-term planning, and assimilating noisy or incomplete information.  We are flexible and adaptable where computers are efficient and rigid.  
+    </para>
+
+
+
+    <para id="para7">  
+	As the powers of computers has developed and matured, the manner in which we use them has correspondingly evolved. Initially computers insinuated themselves into our lives because of their ability to quickly perform large numbers of simple calculations, and because they could be used to efficiently store large amounts of information.  Used as such, they were essentially glorified calculator-filing-cabinets.    
+    </para>
+
+
+    <figure id="watson_and_crick">
+    <title> Watson and Crick </title>
+    <media id="idm2655184" alt=""><image src="../../media/watson_crick.gif" mime-type="image/gif"/></media>
+    </figure>
+
+    <para id="para8">    
+	Today however, we can go well beyond this simple understanding of our relationship with computers as experimental tools.  This changing dynamic is especially evident in, and necessary to, the emergent field of bioinformatics where successful realization of the presented challenges requires both the computer's ability to analyze large and complex data sets; and the human ability to initially generate the data as well as to interpret the computer analysis of the data.  Computers should be viewed as tools to extend our vision into the abstract realms of data analysis, and this improved sight should improve our efficiency in the laboratory.  
+    </para>
+
+
+    <para id="para9">  
+	This type of symbiosis is commonplace today.  An example scenario might be as follows: a researcher isolates a novel gene of interest and has it sent off to be sequenced.  When the researcher receives the sequence in the mail a few days later, the researcher then loads the sequence into the BLAST search engine looking for known homologues.  If a homologue exists, either in the same species or in another, related, species, this information can be used to predict the possible functions the gene might have.  Alternatively, the researcher might want to isolate where the gene resides in the genomic DNA.  Before whole-genome sequences were available, this was a very laborious and difficult process involving time intensive restriction mapping techniques.  Today, the process has been greatly simplified.  To find the gene's location in the genomic DNA the researcher would almost certainly begin with a BLAST search of the organism's genome (if available, or a closely related organism if not).  The search would return a list of candidate sequences, and their locations in the genome, that could then be checked experimentally for identity with the gene of interest.  Furthermore, a successful BLAST search might not only reveals the exact location of the gene of interest, but also any closely related genes as well (the latter being a great advantage of genomic searching versus earlier experimental gene isolation techniques).
+    </para>
+ 
+
+   <para id="para10">  
+When compared to prior techniques, a successful BLAST search is highly efficient and also returns a much greater wealth of data.  Unfortunately, the BLAST search is not the end of the process.  The results of the search should be viewed as candidates that must be experimentally verified in the lab before any final conclusions can be drawn about their true nature.  	
+    </para>
+
+    <figure id="wilkins">
+    <title> Maurice Wilkins </title>
+    <media id="idm1754416" alt=""><image src="../../media/maurice_wilkins.gif" mime-type="image/gif"/></media>
+    </figure>
+
+
+    <para id="para11">  
+	Another specific example of this type of human/computer interface can be found in the analysis of the experimental finding that 3.3% of the human genome aligns to multiple regions of the mouse genome in whole-genome BLASTZ alignments (Birney et. al. 2003).  The implication of this is that outside, higher-order, human knowledge must be brought to bear on the problem of identifying the most significant alignments when multiple alignments are found.  Another example that demonstrates the necessity of meaningful interaction between computer analysis and human understanding is the observation that only one third of the genome under purifying selection actually codes for protein expression (Flicek et. al. 2003).  This result comes from a comparative alignment of human-mouse complete genomic sequences.  The most basic implication of this is that any attempt at gene-prediction via whole-genome alignment is going to generate large numbers of false-positives because of conserved non-coding and non-regulatory regions.  
+    </para>
+
+
+    <para id="para12"> 
+	In these examples we can see how experimental evidence leads to computer analysis which is then used to direct subsequent experiments.  The cyclical nature of our interaction with the two search spaces, the physical and the informational, is becoming increasingly apparent as the two disciplines mature.  Human exploration of the wet and chaotic physical world should direct and be directed by the computer-facilitated human exploration of the ethereal information space, which was itself generated by prior experimental insight and abstract thought.  In reality, both investigative systems are indirect means of increasing our understanding of the same physical phenomena as validated by the reproducible utility of gained information when applied to either / both systems.  
+    </para>
+
+    <figure id="inventors">
+    <title> The inventors of the transistor </title>
+    <media id="idm1551216" alt=""><image src="../../media/inventors_transistor.jpg" mime-type="image/jpeg"/></media>
+    <caption>
+Dr. John Bardeen, Dr. Walter Brattain, and Dr. William Shockley discovered the transistor effect and developed the first device in December, 1947, while the three were members of the technical staff at Bell Laboratories in Murray Hill, NJ. They were awarded the Nobel Prize in physics in 1956.
+    </caption>
+    </figure>
+
+
+    <para id="para13">	
+    So what, then, are the goals of genefinding as a subset of bioinformatics?  Simply put, the goal of genefinding is to locate protein coding regions in unprocessed genomic DNA sequence data.  In reality however, pinpointing the mere location of a gene is part of a much larger challenge.  The eukaryotic gene is a complicated and highly studied beast composed of a variable multitude of small coding regions and regulatory elements hidden amidst tens of thousands of base pairs of intronic and non-signal DNA.  In order to accurately predict gene locations we must first understand how the different functional components interact to create the dynamic and complex phenomena we have come to understand as 'a gene'. 
+    </para>
+
+
+    <para id="para14"> 		 
+	Thus genefinding is something of a misleading misnomer: in order to find genes we must first understand the content and structure of the signal the genes present to the cell's genetic machinery, and in doing this we must answer much broader questions than the seemingly facile question, "Where are the genes?"  The goal of genefinding then is not simple gene prediction, but accurate modeling of the signal genes present to the cell.  Furthermore, because such information does not exist in a vacuum separate from it's interpretation, implicit in the assumption of the ability to model the genetic signal is a furthering of our capacity to understand the deciphering of the genetic signal and our understanding of the inner workings of the cell itself.
+    </para>   
+  </content>
+  
+</document>

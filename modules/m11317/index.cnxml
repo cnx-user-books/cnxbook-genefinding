@@ -1,0 +1,102 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Genomic Data Sets</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>e83fd8cb-dfef-4025-871b-06640abf4053</md:uuid>
+</metadata>
+
+  <content>
+
+	<section id="intro">    
+	<title>Introduction to the available data sets</title>
+		<para id="para1">
+		The amount of whole-genomic data available is mountainous and growing at wholly un-geologic rate.  Currently, over 1000 whole-genome data sets are either completed or in progress (whole genomes are considered 'finished' when they contain less than one error per 10,000 base-pairs).This amazing (and daunting) source of information includes genomes from bacteria, archaea, eukaryotes, as well as viruses and organelles.  In the past four years alone, entire genomic sequences from C. elegans, D. melanogaster, H. sapiens, F. rubipes, A. gambiae, M. musculus, C. briggsae, R. norvegicus, A. thaliana, and C. intestinalis have been, or are nearly, completed (Birney et. al. 2003).  This data set represents a sizeable portion of the commonly studied metazoan eukaryotes.  Another current example of the high-throughput power of modern sequencing facilities is the fact that within weeks of the isolation of SARS, a preliminary genomic sequence was available.  As automated high-throughput genome sequencing techniques continue to progress, more and more data sets of higher and higher quality will become available.  Eventually we may even progress beyond a species-based view of the genome to whole genome sequencing of individual organism.  The information is quickly outstripping our ability to analyze it; we need to develop sophisticated and sensitive informational analysis tools to apply to this new wealth of information.  
+		</para>	 
+	</section>
+
+
+	<section id="sec1">    
+	<title>Arabidopsis thaliana </title>
+
+<figure id="arabidopsis">
+<title> Arabidopsis thaliana </title>
+<media id="idm258288" alt=""><image src="../../media/arabidopsis.jpg" mime-type="image/jpeg"/></media>
+</figure>
+
+		<para id="para2">
+Arabidopsis is the model for plant genetics research.  It is a flowering plant and a member of the mustard family; its advantages as a research model include: short generation time, small size, large number of offspring, and relatively small nuclear genome.  The genome was sequenced in 2000 by The Arabidopsis Genome Initiative (Nature 14 Dec. 2000).  The genome has five chromosomes and a total size of 125mb.  The Arabidopsis Genome Initiative in its original analysis predicted a total of 25,498 genes; this is much larger than both C. elegans (19,000) and Drosophila (13,601) and is in the range of the estimated number of genes for H. sapiens.  The average gene length is around 2000bp with the average exon being 250bp in length (~5 per gene).  The average intron is 180bp in length.
+		</para>	 
+	</section>
+
+
+	<section id="sec2">    
+	<title>Caenorhabditis elegans </title>
+
+<figure id="c_elegans">
+<title> C. elegans </title>
+<media id="idm173440" alt=""><image src="../../media/c_elegans.jpg" mime-type="image/jpeg"/></media>
+</figure>
+
+		<para id="para3">
+C. elegans was the first multicellular organism (it's a worm) to be completely sequenced and the second eukaryote (to yeast) to be sequenced.  The genome was sequenced by The C. elegans Sequencing Consortium in 1998 (Science, 11 Dec. 1998).  Before C. elegans the only other genomes to be sequenced were those of some viruses, bacteria and a yeast.  The 97Mb sequence contains 19,099 predicted protein-coding genes (GENEFINDER was used to predict genes).  The genome has 5 chromosomes plus an X chromosomes.  Each gene has an average of 5 introns.  27% of the genome resides in predicted exons (this is much higher than human's ~5%) and 26% of the genome resides in predicted introns.  GC content in the genome is remarkably constant across all of the chromosomes (36%).  Relative to higher-order metazoan eukaryotes, especially as compared to vertebrates, C. elegans presents a clean genome with a low level of repeat sequences or other low complexity regions (although they definitely do exist, ~6%).
+		</para>	 
+	</section>
+
+	
+	<section id="sec3">    
+	<title>Drosophila melanogaster </title>
+
+<figure id="drosophila">
+<title>D. melanogaster</title>
+<media id="idm6880944" alt=""><image src="../../media/drosophila.jpg" mime-type="image/jpeg"/></media>
+</figure>
+
+
+		<para id="para4">
+The drosophila (fruit fly) genome is 180Mb in size and contains approx. 13,600 genes (Genie and Genescan were used to predict genes).  The somewhat smaller C. elegans genome actually contains more genes than the Drosophila genome, although the functional diversity between the two species appears to be very similar.  The Drosophila genome was published in March of 2000 (Science, 24 March 2000), a few years after the C. elegans genome was initially released.  The genome contains 3 autosomal chromosomes (numbered 2-4), and one X chromosome.  Each drosophila gene contains on average 4 exons of approx. 750bp a piece.   Intron size is highly variable and can range from 40bp to more than 70kb.  Introns and exons are both predicted to occupy around 20Mb of sequence.
+		</para>	 
+	</section>
+
+	<section id="sec4">    
+	<title>Homo sapiens </title>
+
+<figure id="humans">
+<title> Homo sapiens </title>
+<media id="idp422640" alt=""><image src="../../media/homo_sapiens.gif" mime-type="image/gif"/></media>
+</figure>
+
+
+		<para id="para5">Sequencing of the human genome was first formally proposed in 1985, but at the time the idea was met with mixed reactions in the scientific community.  Then in1990 the Human Genome Project (HGP), under the direction by the N.I.H. and the Dept. of Energy, launched a 15-year, $3 billion plan for sequencing the complete human genome.  Their progress was slow however and the HGP did not appear to be on pace to finish by the projected date in 2005.  Half way through their planned time period, in early 1998, the HGP had sequenced less than 5% of the entire genome. </para>
+
+		<para id="para5_2">Then, in the same year that the HGP was reevaluating its progress, Celera, headed by Craig Venter, announced its intention to sequence the entire human genome over a three year period.  After cutting their teeth on the Drosophila genome (which was done in collaboration with Gerald Rubin and the Berkley Drosophila Genome Project), Celera initiated the whole-genome shotgun sequencing of the human genome on September 8th, 1999.  Less than a year later, on 17 June 2000, the first draft of the genome was completed.  Today 99.9% of the human genome is 'finished', meaning less than 1 bp error per 10,000 base pairs. </para>
+
+		<para id="para5_3"> The method Celera used, termed shotgun sequencing, is conceptually straightforward, but requires large amounts of computer processing power to complete.  The protocol (in great oversimplification) is as follows: 1) cut up the genomic DNA into small pieces of known and regular size, 2) clone the pieces of genomic DNA into plasmids for purification and amplification purposes, 3) randomly sequence the DNA fragments from the plasmids while screening the results for contamination, 4) and then load the whole sequenced mess into the computer and let the computer sort it all out.  The computer essentially plays a giant matching game building up larger and larger overlapping sequences until the whole genome is finally laid out in entirety.  The process is, of course, not nearly this simple.  One major complication worth mentioning is that the human genome is particularly replete with repeat sequences that could easily create numerous misleading matches.  Computing the set of all overlaps required approx. 10,000 CPU hours on a suite of four-processor Alpha SMPs with 4 gigabytes of RAM (4-5 days in elapsed time using 40 such machines). </para>
+
+		<para id="para5_4"> Celera's surprising and controversial success was due to several factors.  First off, Celera was able to build upon the knowledge that previous sequencing efforts had gained through years of research and experience, including the Human Genome Project and The Institute for Genome Research (TIGR).  Second, Celera's sequencing facilities were unparalleled in their sheer size.  Celera's sequencing facilities had 50x the sequencing capacity of TIGR.  Finally, because the results of the HGP were public, Celera was able to use their data to help align their shotgun sequences in the whole genome. </para>
+	
+		<para id="para5_5"> The human genome is 2.91-billion base pairs in length.  Celera estimated that approx. 26,383 genes exist in the human genome, but this number has been a source of continued controversy with other estimates reaching as high as 150,000 genes (which is almost certainly much too high).  Of the estimate 26,383 genes, 42% have an unknown function.  The average number of exons in the predicted genes range between 4-5 and the typical exon length is around 100-300 base pairs.  The average size of a human gene is around 27,000bp, with typical ranges between 20,000 and 50,000bp.  A quick calculation will demonstrate that human genes are mostly intronic in composition.  The average intron can be thousands of base pairs in size and can be as large as tens of thousands of base pairs (compare this to the typical exon with a paltry size of ~200bp).  Coding regions in the human genome are estimated to account for only around 3% of the total DNA sequence, intronic sequences contribute ~30%, and intergenic regions ~67%.</para>
+
+		<para id="para5_6"> The expansion of non-coding DNA in humans is particularly striking when compared to other metazoan eukaryotes.  For example, the human genome is 30x larger than the C. elegans and the Drosophila genome, but has only ~2-3x as many genes.  Furthermore, human genes are 10x larger than fly and worm genes, but the vast majority of this increase in size is due to intronic expansion; their exons are essentially the same size.  Repeat sequences are another very prominent feature of the human genome.  35% of the entire human genome (including coding regions) is classified as repetitive, which is quite high already, but if we examine non-coding regions the proportion of repetitive DNA climbs to 46%.  Compare these numbers to Arabidopsis which has a relatively low percentage of repeat sequences in the genome, 10%.  But you should also keep in mind that Vivia faba, or the humble broadbean, is composed of upwards of 80% repetitive DNA. </para>
+
+		<para id="para5_7"> Another important feature of the human (and other mammalian) genomes is CpG islands.  A CpG island is a region of DNA that has a higher relative proportion of CpG dinucleotides when compared to the entire genome.  This increased CpG density is significant because these regions tend to be unmethylated and therefore are believed to promote the initiation of transcription.  This belief is drawn mainly from two observations: 1) most of the housekeeping genes (which are constitutively expressed genes) have CpG islands at the 5' end of the transcript, and 2) CpG island methylation is known to correlate with gene inactivation during gene imprinting and tissue specific gene expression.</para>
+	</section>
+
+	
+	<section id="sec5">    
+	<title>Mus musculus </title>
+
+<figure id="mouse">
+<title> M. musculus </title>
+<media id="idp400864" alt=""><image src="../../media/mouse.jpg" mime-type="image/jpeg"/></media>
+</figure>
+
+
+		<para id="para6">
+The mouse genome was sequenced by the Mouse Genome Sequencing Consortium in 2002 (Nature, Dec. 2002).  Like the human genome, the mouse genome is large, 2.5Gb, only 14% smaller than the human genome.  Gene prediction techniques estimate that there are 30,000 protein-coding genes in the genome.  Approx. 99% of mouse genes have a direct, assignable human homologue. These genes are distributed among 19 autosomal chromosomes and one X chromosome.  The mouse genome contains fewer CpG islands than the human genome (15,550 compared with 33,000) and, like the human genome, a large proportion of the mouse genome is composed of lowcomplexity repeat sequences.  Sequencing the mouse genome was particularly important for a couple of reasons: the mouse is a ubiquitous as a research model, and for use as a comparative tool against the human genome.
+		</para>	 
+	</section>
+
+
+
+
+  </content>
+  
+</document>
